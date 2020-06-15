@@ -1,0 +1,32 @@
+{
+  "name": "@jdsweeney/longest-subarray-length",
+  "version": "1.0.0",
+  "description": "Small program test compute the longest subarray length based on given k",
+  "main": "src/index.ts",
+  "typings": "types.d.ts",
+  "scripts": {
+    "test": "npx env-cmd -e production,test -r ./.env-cmdrc npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jd-sweeney/longest-subarray-length"
+  },
+  "keywords": [
+    "Longest Subarray Length"
+  ],
+  "author": "Joshua Duenas",
+  "bugs": {
+    "url": "https://github.com/jd-sweeney/longest-subarray-length/issues"
+  },
+  "homepage": "https://github.com/jd-sweeney/longest-subarray-length#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "env-cmd": "^10.1.0",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "jest-extended": "^0.11.5",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  }
+}
